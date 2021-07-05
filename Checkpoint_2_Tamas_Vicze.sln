@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint_2_Tamas_Vicze", "Checkpoint_2_Tamas_Vicze.csproj", "{D2433DF6-190F-4D37-8421-A2C16A54D6A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint_2_Test", "..\Checkpoint_2_Test\Checkpoint_2_Test.csproj", "{0B17703E-0BF9-428C-A17A-81FC2E5E4B3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D2433DF6-190F-4D37-8421-A2C16A54D6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2433DF6-190F-4D37-8421-A2C16A54D6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2433DF6-190F-4D37-8421-A2C16A54D6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B17703E-0BF9-428C-A17A-81FC2E5E4B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B17703E-0BF9-428C-A17A-81FC2E5E4B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B17703E-0BF9-428C-A17A-81FC2E5E4B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B17703E-0BF9-428C-A17A-81FC2E5E4B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
