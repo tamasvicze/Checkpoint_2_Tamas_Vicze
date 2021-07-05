@@ -1,6 +1,6 @@
 ﻿namespace Checkpoint_2_Tamas_Vicze
 {
-    class Person : Company
+    public class Person
     {
         private string _name;
         private int _age;
@@ -15,6 +15,12 @@
         {
             get => _age;
             set => _age = value;
+        }
+
+        protected Person(string name = null, int age = 0)
+        {
+            _name = name;
+            _age = age;
         }
     }
 }

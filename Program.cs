@@ -6,7 +6,7 @@ namespace Checkpoint_2_Tamas_Vicze
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Employee.Describe();
         }
     }
 }
