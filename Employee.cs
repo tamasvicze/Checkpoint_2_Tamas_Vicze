@@ -2,7 +2,7 @@
 
 namespace Checkpoint_2_Tamas_Vicze
 {
-    class Employee : Person
+    public class Employee : Person
     {
         private string _hireDate;
         public string HireDate
@@ -15,7 +15,6 @@ namespace Checkpoint_2_Tamas_Vicze
         {
             _hireDate = hireDate;
         }
-
 
          public static void Describe()
         {

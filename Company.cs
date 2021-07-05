@@ -1,9 +1,9 @@
 ﻿namespace Checkpoint_2_Tamas_Vicze
 {
-    class Company
+    public class Company
     {
         private string _companyName;
-        private string _employeeCount;
+        private int _employeeCount;
 
         public string CompanyName
         {
@@ -11,10 +11,16 @@
             set => _companyName = value;
         }
 
-        public string EmployeeCount
+        public int EmployeeCount
         {
             get => _employeeCount;
             set => _employeeCount = value;
+        }
+
+        public Company(string companyName, int employeeCount)
+        {
+            _companyName = companyName;
+            _employeeCount = employeeCount;
         }
     }
 }

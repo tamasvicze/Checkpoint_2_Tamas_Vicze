@@ -17,7 +17,7 @@
             set => _age = value;
         }
 
-        protected Person(string name = null, int age = 0)
+        public Person(string name = null, int age = 0)
         {
             _name = name;
             _age = age;
